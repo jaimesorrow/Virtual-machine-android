@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="@string/nav_dashboard"
+        app:showAsAction="never" />
+
+    <item
+        android:title="COMPUTE"
+        android:orderInCategory="10">
+        <menu>
+            <item
+                android:id="@+id/nav_compute_engine"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="@string/nav_compute_engine" />
+            <item
+                android:id="@+id/nav_kubernetes"
+                android:icon="@android:drawable/ic_menu_view"
+                android:title="@string/nav_kubernetes" />
+            <item
+                android:id="@+id/nav_cloud_run"
+                android:icon="@android:drawable/ic_media_play"
+                android:title="@string/nav_cloud_run" />
+            <item
+                android:id="@+id/nav_cloud_functions"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="@string/nav_cloud_functions" />
+        </menu>
+    </item>
+
+    <item
+        android:title="STORAGE &amp; DATABASES"
+        android:orderInCategory="20">
+        <menu>
+            <item
+                android:id="@+id/nav_cloud_storage"
+                android:icon="@android:drawable/ic_menu_save"
+                android:title="@string/nav_cloud_storage" />
+            <item
+                android:id="@+id/nav_cloud_sql"
+                android:icon="@android:drawable/ic_menu_recent_history"
+                android:title="@string/nav_cloud_sql" />
+            <item
+                android:id="@+id/nav_bigquery"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="@string/nav_bigquery" />
+        </menu>
+    </item>
+
+    <item
+        android:title="OPERATIONS"
+        android:orderInCategory="30">
+        <menu>
+            <item
+                android:id="@+id/nav_monitoring"
+                android:icon="@android:drawable/ic_menu_recent_history"
+                android:title="@string/nav_monitoring" />
+            <item
+                android:id="@+id/nav_logging"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="@string/nav_logging" />
+        </menu>
+    </item>
+
+    <item
+        android:title="SECURITY &amp; ADMIN"
+        android:orderInCategory="40">
+        <menu>
+            <item
+                android:id="@+id/nav_iam"
+                android:icon="@android:drawable/ic_menu_my_calendar"
+                android:title="@string/nav_iam" />
+            <item
+                android:id="@+id/nav_apis"
+                android:icon="@android:drawable/ic_menu_add"
+                android:title="@string/nav_apis" />
+            <item
+                android:id="@+id/nav_billing"
+                android:icon="@android:drawable/ic_menu_today"
+                android:title="@string/nav_billing" />
+        </menu>
+    </item>
+
+</menu>

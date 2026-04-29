@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gcp_blue">#1A73E8</color>
+    <color name="gcp_blue_dark">#1557B0</color>
+    <color name="gcp_blue_light">#4285F4</color>
+    <color name="gcp_red">#EA4335</color>
+    <color name="gcp_green">#34A853</color>
+    <color name="gcp_yellow">#FBBC04</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="background_light">#F8F9FA</color>
+    <color name="background_card">#FFFFFF</color>
+
+    <color name="text_primary">#202124</color>
+    <color name="text_secondary">#5F6368</color>
+    <color name="text_hint">#9AA0A6</color>
+
+    <color name="status_running">#34A853</color>
+    <color name="status_stopped">#9AA0A6</color>
+    <color name="status_pending">#FBBC04</color>
+    <color name="status_error">#EA4335</color>
+    <color name="status_warning">#F29900</color>
+
+    <color name="divider_color">#E0E0E0</color>
+
+    <color name="primary">#1A73E8</color>
+    <color name="primary_dark">#1557B0</color>
+    <color name="accent">#34A853</color>
+</resources>
