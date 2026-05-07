@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Cloud Console</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_compute_engine">Compute Engine</string>
+    <string name="nav_cloud_storage">Cloud Storage</string>
+    <string name="nav_kubernetes">Kubernetes Engine</string>
+    <string name="nav_cloud_functions">Cloud Functions</string>
+    <string name="nav_bigquery">BigQuery</string>
+    <string name="nav_cloud_sql">Cloud SQL</string>
+    <string name="nav_iam">IAM &amp; Admin</string>
+    <string name="nav_billing">Billing</string>
+    <string name="nav_apis">APIs &amp; Services</string>
+    <string name="nav_monitoring">Cloud Monitoring</string>
+    <string name="nav_logging">Cloud Logging</string>
+    <string name="nav_cloud_run">Cloud Run</string>
+
+    <!-- Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- VM Actions -->
+    <string name="create_vm">Create VM Instance</string>
+    <string name="vm_detail">VM Instance Details</string>
+    <string name="start_instance">Start Instance</string>
+    <string name="stop_instance">Stop Instance</string>
+
+    <!-- Status -->
+    <string name="status_running">Running</string>
+    <string name="status_stopped">Stopped</string>
+    <string name="status_terminated">Terminated</string>
+</resources>
