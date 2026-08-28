@@ -29,10 +29,10 @@ class ComputeEngineFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val instances = MockDataRepository.vmInstances
-        binding.recyclerVMs.layoutManager = LinearLayoutManager(requireContext())
-        binding.recyclerVMs.adapter = VMInstanceAdapter(instances)
+        binding.recyclerVms.layoutManager = LinearLayoutManager(requireContext())
+        binding.recyclerVms.adapter = VMInstanceAdapter(instances)
 
-        binding.fabCreateVM.setOnClickListener {
+        binding.fabCreateVm.setOnClickListener {
             startActivity(Intent(requireContext(), CreateVMActivity::class.java))
         }
 
